@@ -1,0 +1,44 @@
+{
+  "name": "slackfred",
+  "version": "0.0.0",
+  "description": "Alfred workflow for alfred",
+  "license": "MIT",
+  "repository": "cod3hulk/slackfred",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "github.com/cod3hulk"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    ""
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "fuzzy": "^0.1.3",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
